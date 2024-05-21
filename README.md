@@ -11,4 +11,4 @@ La regla 70/30 propone dividir los ingresos netos mensuales de la siguiente mane
 # Funcionalidades
 
 - Calcula la distribución de ingresos según la regla 70/30.
-- Desglosa los gastos en necesidades básicas y gastos discrecionales.
+- Desglosa los gastos en necesidades básicas y gastos discrecionales.# PreEntrega1-Schwegler
