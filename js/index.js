@@ -41,10 +41,10 @@ if (decisionInvertir == "si") {
     montoInvertir = porcentajeAhorro * ingresosTotales
 }
 
-let plazoFijo = montoInvertir * 0.40;
-let bonosSoberanos = montoInvertir * 0.30;
-let fondoComunInversion = montoInvertir * 0.20;
-let accionesEmpresas = montoInvertir * 0.10;
+let plazoFijo = Math.round(montoInvertir * 0.40);
+let bonosSoberanos = Math.round(montoInvertir * 0.30);
+let fondoComunInversion = Math.round(montoInvertir * 0.20);
+let accionesEmpresas = Math.round(montoInvertir * 0.10);
 
 function diversificarCartera(montoInvertir) {
     plazoFijo;
@@ -64,5 +64,9 @@ else {
 console.log("El usuario ha tenido $" + ingresosTotales + " de ingresos en el mes y ha decidido destinar un " + (porcentajeAhorro * 100) + "% de ahorro mensual.");
 console.log("El usuario ha decidido destinar $" + (porcentajeGastos * ingresosTotales) + " para gastos mensuales.");
 console.log("Porcentaje de gastos: " + (porcentajeGastos * 100) + "%");
-console.log("El usuario ha decidido " + decisionInvertir + " invertir el monto ahorrado");
-console.log("El monto a invertir definido por el usuario es $" + montoInvertir);
+if (decisionInvertir === "si") {
+    console.log("El monto a invertir definido por el usuario es $" + montoInvertir);
+}
+else {
+    console.log("El usuario ha decidido no invertir el monto ahorrado.");
+}
