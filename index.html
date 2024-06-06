@@ -4,14 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Programa de Finanzas Personales</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Simulador de Finanzas Personales</h1>
-    <p>La finalidad de esta página es proporcionar a los usuarios una herramienta que les permita entender y gestionar
-        mejor sus finanzas personales.</p>
+    <header>
+        <h1> FinanzApp</h1>
+        <button onclick="location.reload()">Refrescar Datos</button>
+    </header>
+
+    <h2>Programa de Finanzas Personales</h2>
+    <div id="contenedor">
+        <button onclick="capturarIngresos()">Ingresar Datos Financieros</button>
+        <button onclick="determinarPerfil()">Determinar Perfil de Inversor</button>
+        <button onclick="mostrarResumen()">Mostrar Resumen</button>
+    </div>
+
+    <footer>
+        <span id="fecha"></span>
+        <p>© By Diego Schwegler. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/style.js"></script>
     <script src="js/index.js"></script>
 </body>
 
