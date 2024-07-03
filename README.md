@@ -1,6 +1,6 @@
-# PreEntrega1-Schwegler
+# FinanzApp-Schwegler
 
-Calculadora de Distribución de Ingresos según Regla 70/30
+Calculadora de Distribución de Ingresos
 
 Este proyecto consiste en una calculadora simple que aplica una regla definida por el usuario para los ingresos netos mensuales y distribuirlos entre gastos y ahorro/inversión.
 
@@ -11,4 +11,4 @@ El usuario debe elegir dividir los ingresos netos mensuales en función a la can
 - Calcula la distribución de ingresos.
 - Desglosa los ahorros proponiendo una cartera de inversión.
 
-# PreEntrega1-Schwegler
+# FinanzApp-Schwegler
